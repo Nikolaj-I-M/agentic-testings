@@ -63,3 +63,7 @@ See the [evaluator documentation](./docs/evaluator.md) for usage, arguments, eva
 
 In this repository we aim to have an application residing in the src folder. Here you can find a description of it and functional requirements.
 
+The browser game is organized into focused modules: `src/levels/` contains level data,
+`src/input/` owns keyboard state, `src/logic/` contains DOM-free state updates,
+`src/render/` draws state to the canvas, and `src/loop.ts` coordinates one frame at a
+time. Run `npm install` followed by `npm run dev` to launch the placeholder game.
