@@ -53,7 +53,7 @@ runs:
         set -euo pipefail
         mkdir -p .ci
         {
-          echo "## Plan"
+          echo "## Plan (required)"
           echo
           echo "- **Goal:** $(jq -r '.goal // "N/A"' out/plan.json)"
           echo "- **Scope (paths/files):** $(jq -r '(.scope // []) | join(", ")' out/plan.json)"
