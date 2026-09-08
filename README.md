@@ -61,5 +61,8 @@ Included in this repo you'll find an evaluator tool, which resides in the [/eval
 
 See the [evaluator documentation](./docs/evaluator.md) for usage, arguments, evaluation flow, and badge generation.
 
-In this repository we aim to have an application residing in the src folder. Here you can find a description of it and functional requirements.
+## Game status
 
+This workshop is designed to use the agent workflows to create **McSquishy: Blob on the Run**, a browser-based TypeScript platform game. The game requirements are in [`src/DESCRIPTION.md`](./src/DESCRIPTION.md), [`src/FUNCTIONAL_REQUIREMENTS.md`](./src/FUNCTIONAL_REQUIREMENTS.md), and [`src/TECHNICAL_REQUIREMENTS.md`](./src/TECHNICAL_REQUIREMENTS.md).
+
+The game application has not been implemented yet, so there is currently no game to run or play. After the generated issues have been implemented and merged, the repository should contain the application and its documented install and start commands. Those commands will depend on the development tooling chosen during implementation and should be added here with the game.
